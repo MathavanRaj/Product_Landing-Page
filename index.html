@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fruit Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+        <div class="header-content-div">
+          <h1>Mobile Product Landing</h1>
+      <div class="header-content-div">
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#models" class="nav-link">MODELS</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="phone.jpg" alt="Image of phones" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Trust <br>Belive <br>Perfect</h1>
+          <h2>
+            We can gives you a 100% security for the product which you brought from our stores.
+          </h2><br><br>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            WHAT WE DO?<br>
+            MobileShop gives you a chance to quickly and easily find the device you want and 
+            have it delivered to your home in no time, regardless of your location, as long as it is in one of the countries of the EU.<br><br>
+            WHY DO CUSTOMERS LOVE US?<br>
+            We have been in the business for quite a while now, and in that time we have not only managed to make close relationships with numerous partners,
+            but also to recognize what people need. At MobileShop you will find quality products from top brands at consistently low prices. We are offering a wide range of smartphones and tablets, notebooks and computer equipment, headsets and smartwatches, small household appliances and other electronics. 
+            Intelligent filter options and complete product information help customers to find exactly the products that suit them.
+          </p>
+          <img src="background.png" alt="mobile" />
+        </div>
+      </section>
+
+      <section id="models" class="sec-padding">
+        <h3 class="section-heading">MODELS</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="Iphone.jpg" alt="iphones" />
+            <h4>Iphone</h4>
+            <p>
+              This is the most popular and unique mobile all over the world.Which gives awesome camera quailty.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="Samsung.jpg"
+              alt="samsung"
+            />
+            <h4>Samsung</h4>
+            <p>
+                It is one of the oldest mobile which was founded by grocery trading store on March 1, 1938, by Lee Byung-Chull.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="pixel.jpg" alt="pixel" />
+            <h4>Pixel</h4>
+            <p>
+                With Pixel, you receive exclusive features and updates that keep your phone getting better over time. 
+                For the first time, we're providing seven years of software support for Pixel 8.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="redmi.png" alt="redmi" />
+            <h4>Xiaomi</h4>
+            <p>
+              It is one of the Cheap and best mobile in the nowadays world.Which gives their best within the budget. 
+            </p>
+          </div>
+          <div class="tile">
+            <img src="vivo.jpeg" alt="vivo" />
+            <h4>Vivo</h4>
+            <p>
+                Vivo is a Chinese multinational manufacturer of smartphones headquartered in Dongguan, Guangdong province, China.
+                 Founded in 1995, vivo entered the telecommunication and consumer electronics industry.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="nokia.jpg" alt="nokia" />
+            <h4>Nokia</h4>
+            <p>
+                Nokia is one of the oldest mobile brand. which can be used many number of people.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Quality</h5>
+              <p>We produce you a good build quailty mobile with good guidence.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as apple when we receive the product.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Mathavan Raj M</a>
+    </footer>
+  </body>
+</html>
